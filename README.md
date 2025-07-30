@@ -12,6 +12,9 @@ Pretraining Workflow
 And CrossEntropy Loss to ensure correct classification of identities.
 
 
+
+
+
 Next object:
 1.Model Training and Evaluation with Labels
  Successfully train the FaceNet model on labeled face data and evaluate its performance in recognizing identities.
@@ -21,3 +24,5 @@ Next object:
 
 3.Face Detection in Videos Using YOLO
  Integrate YOLO (You Only Look Once) to enhance face detection performance in video streams, enabling efficient and scalable analysis.
+
+
