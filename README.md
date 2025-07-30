@@ -7,9 +7,10 @@ Pretraining Workflow
 2.Feature Extraction
  Pass aligned face images through a ResNet-based FaceNet model to extract robust facial embeddings.
 
-3。Loss Functions
+3.Loss Functions
  Use a combination of Triplet Loss to maximize inter-class distance and minimize intra-class distance,
 And CrossEntropy Loss to ensure correct classification of identities.
+
 
 Next object:
 1.Model Training and Evaluation with Labels
