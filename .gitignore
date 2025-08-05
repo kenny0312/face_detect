@@ -1,0 +1,15 @@
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略 PyCharm 配置
+.idea/
+
+# 忽略模型文件
+*.pt
+*.pth
+
+# 忽略数据文件
+dataset/*/image/
+dataset/*/video/
+dataset/*/pth/
