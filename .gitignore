@@ -16,4 +16,8 @@ dataset/*/pth/
 
 
 *.mp4
+echo "*.pt" >> .gitignore
+echo "*.pth" >> .gitignore
+echo "*.mp4" >> .gitignore
+echo "dataset/*/video/" >> .gitignore
 
