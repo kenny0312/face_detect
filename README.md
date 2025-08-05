@@ -1,4 +1,5 @@
-# face_detect
+# real-time face_reconigtion Using yolov8 and facenet
+
 
 Pretraining Workflow
 1.Face Detection & Alignment 
