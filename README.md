@@ -2,6 +2,7 @@
 
 
 Pretraining Workflow
+Face-alignment: 
 1.Face Detection & Alignment 
  Utilize MTCNN to detect facial landmarks and align faces for consistency in input representation.
 
@@ -13,17 +14,11 @@ Pretraining Workflow
 And CrossEntropy Loss to ensure correct classification of identities.
 
 
+object_detection:
 
-
-
-Next object:
-1.Model Training and Evaluation with Labels
- Successfully train the FaceNet model on labeled face data and evaluate its performance in recognizing identities.
-
-2.Real-time Face Recognition via Webcam
- Implement a pipeline to perform real-time face detection and recognition using a live camera feed.
-
-3.Face Detection in Videos Using YOLO
+1.objects Detection in Videos Using YOLO
  Integrate YOLO (You Only Look Once) to enhance face detection performance in video streams, enabling efficient and scalable analysis.
+
+2. predprocess the image of the obection and using the facenet the get the embedding (features tensor), compare with the face uploaded in my own dataset to identify the information of the object.
 
 
